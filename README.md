@@ -87,8 +87,6 @@ Univariate Analysis
 
 * Factors like bathrooms, bedrooms, having a waterfront, and an excellent view have a positive effect on house prices. Lastly, the house prices seemed to have increased in 2015 they should therefore consider inflation when setting house prices in the future.
 
-## Recommendations
-
 
 ## Non-Technical Presentation
 
