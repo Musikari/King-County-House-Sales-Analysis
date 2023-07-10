@@ -19,6 +19,7 @@ The Real Estate Agents who are the stakeholders play an important role between h
 The dataset I will use is the King County House Sales dataset, which contains information about house sales in a northwestern county. The dataset is provided in the kc_house_data.csv file in the data folder of the project's GitHub repository.
 The data utilized in this project is kc_house_data.csv file as it provides relevant information for the analysis process. These columns below provide essential information about the houses in the dataset, which can be used for various analyses, such as predicting house prices, understanding the relationship between different features, or exploring the housing market trends.
 
+
 ### Column Names and Descriptions for King County Data Set
 * `id` - Unique identifier for a house
 * `date` - Date house was sold
@@ -57,7 +58,7 @@ We used the following regression models:
 
 ## Conclusion
 
-Univariate Analysis
+### Univariate Analysis and Regression Model
 
 * In the year 2014 more houses were sold as compared to hoses sold in 2015.
 
@@ -76,18 +77,18 @@ Univariate Analysis
 
 * Most houses were in average condition and the houses with very good condition had the highest prices.
 
-
-
-## Regression Model
 * The multiple linear regression model is better than the two simple regression models as it had a higher R-squared value. This shows that categorical variables had a positive effect on the prices as illustrated in the univariate analysis.
 
 * Therefore adding these variables to the predictive model made the model to be a bit stronger.
 
-* In conclusion the real estate agency should review the sqft_living, sqft_living15, sqft_above, bedrooms, bathrooms, and grade when setting their house prices as there is a linear relationship between these variables.
 
-* Factors like bathrooms, bedrooms, having a waterfront, and an excellent view have a positive effect on house prices. Lastly, the house prices seemed to have increased in 2015 they should therefore consider inflation when setting house prices in the future.
+## Recommendation
+* In conclusion, the real estate agent should review the sqft_living, sqft_living15, sqft_above, bedrooms, bathrooms, and grade when setting 
+  their  house prices as there is a linear relationship between these variables.
 
-
+* Factors like bathrooms, bedrooms, having a waterfront, and an excellent view have a positive effect on house prices. Lastly, the house prices 
+  seemed to have increased in 2015 they should therefore consider inflation when setting house prices in the future.
+  
 ## Non-Technical Presentation
 
 To access the non-technical presentation click here [Link](https://docs.google.com/presentation/d/1TOd9Cb0dX8W5OLbUASLv89wSEjf93IByFdxn-rfN59U/edit?usp=sharing)
